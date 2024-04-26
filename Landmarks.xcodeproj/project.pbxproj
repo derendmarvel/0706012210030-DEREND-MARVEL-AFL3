@@ -45,6 +45,7 @@
 		3FC7A29B2BDB480A00489DA9 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7A29A2BDB480A00489DA9 /* LandmarkList.swift */; };
 		3FC7A29D2BDB4D4500489DA9 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7A29C2BDB4D4500489DA9 /* LandmarkCommands.swift */; };
 		3FC7A29E2BDB4D4500489DA9 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7A29C2BDB4D4500489DA9 /* LandmarkCommands.swift */; };
+		3FC7A2A02BDB51F100489DA9 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC7A29F2BDB51F100489DA9 /* LandmarkSettings.swift */; };
 		3FC991222BDA1563000F693E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC991212BDA1563000F693E /* Profile.swift */; };
 		3FC991262BDA162F000F693E /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC991252BDA162F000F693E /* ProfileHost.swift */; };
 		3FC991282BDA167F000F693E /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC991272BDA167F000F693E /* ProfileSummary.swift */; };
@@ -141,6 +142,7 @@
 		3FC7A2982BDB44C000489DA9 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		3FC7A29A2BDB480A00489DA9 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		3FC7A29C2BDB4D4500489DA9 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		3FC7A29F2BDB51F100489DA9 /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 		3FC991212BDA1563000F693E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		3FC991252BDA162F000F693E /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
 		3FC991272BDA167F000F693E /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
@@ -251,11 +253,12 @@
 			isa = PBXGroup;
 			children = (
 				3FC7A27E2BDB41A300489DA9 /* ContentView.swift */,
+				3FC7A2982BDB44C000489DA9 /* LandmarkDetail.swift */,
+				3FC7A29C2BDB4D4500489DA9 /* LandmarkCommands.swift */,
+				3FC7A29F2BDB51F100489DA9 /* LandmarkSettings.swift */,
 				3FC7A2802BDB41A500489DA9 /* Assets.xcassets */,
 				3FC7A2852BDB41A500489DA9 /* MacLandmarks.entitlements */,
 				3FC7A2822BDB41A500489DA9 /* Preview Content */,
-				3FC7A2982BDB44C000489DA9 /* LandmarkDetail.swift */,
-				3FC7A29C2BDB4D4500489DA9 /* LandmarkCommands.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
@@ -662,6 +665,7 @@
 			files = (
 				3FC7A27F2BDB41A300489DA9 /* ContentView.swift in Sources */,
 				3FC7A2952BDB432A00489DA9 /* Landmark.swift in Sources */,
+				3FC7A2A02BDB51F100489DA9 /* LandmarkSettings.swift in Sources */,
 				3FC7A28C2BDB432A00489DA9 /* ModelData.swift in Sources */,
 				3FC7A28B2BDB432A00489DA9 /* MapView.swift in Sources */,
 				3FC7A29E2BDB4D4500489DA9 /* LandmarkCommands.swift in Sources */,
