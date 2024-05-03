@@ -42,11 +42,7 @@ struct LandmarkList: View {
         @Bindable var modelData = modelData
         
         NavigationSplitView{
-            List (selection: $selectedLandmark) {
-                Toggle(isOn: $showFavoritesOnly) {
-                    Text("Favorites only")
-                }
-                
+            List (selection: $selectedLandmark){
                 ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
                         LandmarkDetail(landmark: landmark)
